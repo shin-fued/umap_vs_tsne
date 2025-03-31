@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="enough testing time to actually do stuff">
-      <change afterPath="$PROJECT_DIR$/trying.ipynb" afterDir="false" />
+    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="wtf am i doing wrong">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/umap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/umap.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scikit-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trying.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trying.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
       <workItem from="1742111223869" duration="42624000" />
       <workItem from="1742820859133" duration="29072000" />
       <workItem from="1743328461683" duration="8000" />
-      <workItem from="1743328980696" duration="10466000" />
+      <workItem from="1743328980696" duration="12355000" />
     </task>
     <task id="LOCAL-00001" summary="started the project">
       <option name="closed" value="true" />
@@ -110,7 +110,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743405214140</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="wtf am i doing wrong">
+      <option name="closed" value="true" />
+      <created>1743411012467</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743411012467</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -122,7 +130,8 @@
     <MESSAGE value="i did things??" />
     <MESSAGE value="tried out a homemade tsne" />
     <MESSAGE value="enough testing time to actually do stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="enough testing time to actually do stuff" />
+    <MESSAGE value="wtf am i doing wrong" />
+    <option name="LAST_COMMIT_MESSAGE" value="wtf am i doing wrong" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
