@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="i did things??">
+    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="tried out a homemade tsne">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_umap.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_umap.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/umap.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/umap.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +67,7 @@
       <workItem from="1742111223869" duration="42624000" />
       <workItem from="1742820859133" duration="29072000" />
       <workItem from="1743328461683" duration="8000" />
-      <workItem from="1743328980696" duration="3977000" />
+      <workItem from="1743328980696" duration="6064000" />
     </task>
     <task id="LOCAL-00001" summary="started the project">
       <option name="closed" value="true" />
@@ -94,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742915257371</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tried out a homemade tsne">
+      <option name="closed" value="true" />
+      <created>1743396707659</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743396707659</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,15 +111,21 @@
     <MESSAGE value="started the project" />
     <MESSAGE value="trying to implement umap somewhat" />
     <MESSAGE value="i did things??" />
-    <option name="LAST_COMMIT_MESSAGE" value="i did things??" />
+    <MESSAGE value="tried out a homemade tsne" />
+    <option name="LAST_COMMIT_MESSAGE" value="tried out a homemade tsne" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
           <url>notebook:///Users/shin/umap_testing/pythonProject1/umap.ipynb</url>
-          <line>149</line>
+          <line>150</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/shin/umap_testing/pythonProject1/umap.ipynb</url>
+          <line>196</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
