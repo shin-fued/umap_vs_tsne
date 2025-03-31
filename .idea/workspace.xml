@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="wtf am i doing wrong">
+    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="Theyre all garbage?">
+      <change afterPath="$PROJECT_DIR$/more_columns.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_umap.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/scikit-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-test.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trying.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trying.ipynb" afterDir="false" />
     </list>
@@ -47,6 +50,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -68,7 +76,7 @@
       <workItem from="1742111223869" duration="42624000" />
       <workItem from="1742820859133" duration="29072000" />
       <workItem from="1743328461683" duration="8000" />
-      <workItem from="1743328980696" duration="12355000" />
+      <workItem from="1743328980696" duration="16891000" />
     </task>
     <task id="LOCAL-00001" summary="started the project">
       <option name="closed" value="true" />
@@ -118,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743411012467</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Theyre all garbage?">
+      <option name="closed" value="true" />
+      <created>1743417400226</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1743417400226</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,7 +147,8 @@
     <MESSAGE value="tried out a homemade tsne" />
     <MESSAGE value="enough testing time to actually do stuff" />
     <MESSAGE value="wtf am i doing wrong" />
-    <option name="LAST_COMMIT_MESSAGE" value="wtf am i doing wrong" />
+    <MESSAGE value="Theyre all garbage?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Theyre all garbage?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
