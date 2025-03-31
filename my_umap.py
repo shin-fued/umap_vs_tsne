@@ -6,9 +6,8 @@ from pandas.core.interchange.dataframe_protocol import DataFrame
 
 
 #input in as a pandas dataframe
-@njit
 def umap(data: DataFrame):
-    return
+    pass
 
 
 
