@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="Theyre all garbage?">
+    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="reducer is a thing?+gudhi">
       <change afterPath="$PROJECT_DIR$/more_columns.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
@@ -76,7 +76,10 @@
       <workItem from="1742111223869" duration="42624000" />
       <workItem from="1742820859133" duration="29072000" />
       <workItem from="1743328461683" duration="8000" />
-      <workItem from="1743328980696" duration="16891000" />
+      <workItem from="1743328980696" duration="17752000" />
+      <workItem from="1743458111760" duration="402000" />
+      <workItem from="1743458517009" duration="296000" />
+      <workItem from="1743458878945" duration="844000" />
     </task>
     <task id="LOCAL-00001" summary="started the project">
       <option name="closed" value="true" />
@@ -134,7 +137,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743417400226</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="reducer is a thing?+gudhi">
+      <option name="closed" value="true" />
+      <created>1743433585540</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743433585540</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +159,8 @@
     <MESSAGE value="enough testing time to actually do stuff" />
     <MESSAGE value="wtf am i doing wrong" />
     <MESSAGE value="Theyre all garbage?" />
-    <option name="LAST_COMMIT_MESSAGE" value="Theyre all garbage?" />
+    <MESSAGE value="reducer is a thing?+gudhi" />
+    <option name="LAST_COMMIT_MESSAGE" value="reducer is a thing?+gudhi" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
