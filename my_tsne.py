@@ -57,9 +57,6 @@ class my_TSNE:
         inv_dist = np.expand_dims(inv_dist, axis=2)  # (n, n, 1)
         return 4 * np.sum(pq_diff * y_diff * inv_dist, axis=1)
 
-    def get_sigma(self):
-        return self.sigma_array
-
     def get_KLs(self):
         return self.KL_array
 
@@ -71,13 +68,10 @@ class my_TSNE:
         dist = np.square(euclidean_distances(X, squared=True))
         n = X.shape[0]
         prob = np.zeros((n, n))
-        sigma_array = []
         for dist_row in range(n):
             func = lambda sigma: self.perplexity(self.prob_high_dim(sigma, dist_row, dist))
             binary_search_result = self.sigma_binary_search(func, Perplexity)
             prob[dist_row] = self.prob_high_dim(binary_search_result, dist_row, dist)
-            sigma_array.append(binary_search_result)
-        self.sigma_array = sigma_array
         P = (prob + np.transpose(prob)) / 2
         np.random.seed(12345)
         Y = np.random.normal(loc = 0, scale = 1e4, size=(n, d))
