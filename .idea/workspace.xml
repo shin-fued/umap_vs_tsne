@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="reducer is a thing?+gudhi">
-      <change afterPath="$PROJECT_DIR$/more_columns.ipynb" afterDir="false" />
+    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="adding benchmarking will try more">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_umap.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scikit-test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/scikit-test.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bench_mark_res.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bench_mark_res.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/more_columns.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/more_columns.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trying.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trying.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.benchmark.executor&quot;: &quot;Run&quot;,
     &quot;Python.download.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_tsne.executor&quot;: &quot;Run&quot;,
+    &quot;Python.my_umap.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -47,6 +49,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.notebooks.jupyter.connections.configuration.JupyterServerConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -79,7 +82,9 @@
       <workItem from="1743328980696" duration="17752000" />
       <workItem from="1743458111760" duration="402000" />
       <workItem from="1743458517009" duration="296000" />
-      <workItem from="1743458878945" duration="844000" />
+      <workItem from="1743458878945" duration="38901000" />
+      <workItem from="1743623570585" duration="1553000" />
+      <workItem from="1743639142530" duration="1051000" />
     </task>
     <task id="LOCAL-00001" summary="started the project">
       <option name="closed" value="true" />
@@ -145,7 +150,39 @@
       <option name="project" value="LOCAL" />
       <updated>1743433585540</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gudhi and affinity">
+      <option name="closed" value="true" />
+      <created>1743491026989</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743491026989</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added income data">
+      <option name="closed" value="true" />
+      <created>1743602934599</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743602934599</updated>
+    </task>
+    <task id="LOCAL-00011" summary="my tsne is so fucking garbage">
+      <option name="closed" value="true" />
+      <created>1743610904298</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743610904298</updated>
+    </task>
+    <task id="LOCAL-00012" summary="adding benchmarking will try more">
+      <option name="closed" value="true" />
+      <created>1743617751148</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1743617751148</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,25 +197,16 @@
     <MESSAGE value="wtf am i doing wrong" />
     <MESSAGE value="Theyre all garbage?" />
     <MESSAGE value="reducer is a thing?+gudhi" />
-    <option name="LAST_COMMIT_MESSAGE" value="reducer is a thing?+gudhi" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///Users/shin/umap_testing/pythonProject1/umap.ipynb</url>
-          <line>150</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
-          <url>notebook:///Users/shin/umap_testing/pythonProject1/umap.ipynb</url>
-          <line>196</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="gudhi and affinity" />
+    <MESSAGE value="added income data" />
+    <MESSAGE value="my tsne is so fucking garbage" />
+    <MESSAGE value="adding benchmarking will try more" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding benchmarking will try more" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/umap_vs_tsne$benchmark.coverage" NAME="benchmark Coverage Results" MODIFIED="1743618392051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/umap_vs_tsne$download.coverage" NAME="download Coverage Results" MODIFIED="1742390744399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/umap_vs_tsne$my_umap.coverage" NAME="my_umap Coverage Results" MODIFIED="1743615793372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/umap_vs_tsne$my_tsne.coverage" NAME="my_tsne Coverage Results" MODIFIED="1743609036919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

@@ -32,5 +32,5 @@ def benchmark(samples):
             file.write(f"{n * n},{time_end_tsne - time_start_tsne},{time_end_umap - time_start_umap}\n")
 
 
-benchmark(500)  # Run with 10 sample sizes
+benchmark(200)
 
