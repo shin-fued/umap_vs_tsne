@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="adding benchmarking will try more">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bench_mark_res.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/bench_mark_res.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benchmark.py" beforeDir="false" afterPath="$PROJECT_DIR$/benchmark.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/more_columns.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/more_columns.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trying.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/trying.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="5ce5568e-aa4a-4578-875a-a20e0b6d2617" name="Changes" comment="idk no more" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +79,7 @@
       <workItem from="1743458878945" duration="38901000" />
       <workItem from="1743623570585" duration="1553000" />
       <workItem from="1743639142530" duration="1051000" />
+      <workItem from="1743640484585" duration="21469000" />
     </task>
     <task id="LOCAL-00001" summary="started the project">
       <option name="closed" value="true" />
@@ -182,7 +177,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743617751148</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="flipping sklearn so slow">
+      <option name="closed" value="true" />
+      <created>1743651054469</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1743651054469</updated>
+    </task>
+    <task id="LOCAL-00014" summary="idk no more">
+      <option name="closed" value="true" />
+      <created>1743942930794</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1743942930794</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,10 +212,23 @@
     <MESSAGE value="added income data" />
     <MESSAGE value="my tsne is so fucking garbage" />
     <MESSAGE value="adding benchmarking will try more" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding benchmarking will try more" />
+    <MESSAGE value="flipping sklearn so slow" />
+    <MESSAGE value="idk no more" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk no more" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="jupyter-line">
+          <url>notebook:///Users/shin/umap_testing/pythonProject1/scikit-test.ipynb</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/umap_vs_tsne$benchmark.coverage" NAME="benchmark Coverage Results" MODIFIED="1743618392051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/umap_vs_tsne$benchmark.coverage" NAME="benchmark Coverage Results" MODIFIED="1743757202815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/umap_vs_tsne$download.coverage" NAME="download Coverage Results" MODIFIED="1742390744399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/umap_vs_tsne$my_umap.coverage" NAME="my_umap Coverage Results" MODIFIED="1743615793372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/umap_vs_tsne$my_tsne.coverage" NAME="my_tsne Coverage Results" MODIFIED="1743609036919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

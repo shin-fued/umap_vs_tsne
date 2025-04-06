@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 from sklearn.metrics.pairwise import euclidean_distances
 
 #this garbage is for benchmarking purposes
+#heavily borrowed from https://nlml.github.io/in-raw-numpy/in-raw-numpy-t-sne/ and the other repo
 
 class my_TSNE:
     def __init__(self, learning):

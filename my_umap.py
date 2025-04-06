@@ -6,6 +6,7 @@ from sklearn.manifold import SpectralEmbedding
 from sklearn.metrics.pairwise import euclidean_distances
 
 #tried to implement it, it was bad took this dude's: https://github.com/NikolayOskolkov/HowUMAPWorks/blob/master/HowUMAPWorks.ipynb and adapted
+#still gave me weird numbers
 
 class my_UMAP:
     def __init__(self, learning):
