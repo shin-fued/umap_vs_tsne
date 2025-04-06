@@ -19,12 +19,12 @@ def benchmark(samples):
 
         # Benchmark t-SNE
         time_start_tsne = time.time()
-        tsne.fit(random_matrix, 30, 2, 200)
+        tsne.fit(random_matrix, 30, 2, 100)
         time_end_tsne = time.time()
 
         # Benchmark UMAP
         time_start_umap = time.time()
-        umap.fit(random_matrix, i, 0.1, 2, 200)
+        umap.fit(random_matrix, i, 0.1, 2, 100)
         time_end_umap = time.time()
 
         # Append results to the file
@@ -32,5 +32,5 @@ def benchmark(samples):
             file.write(f"{n * n},{time_end_tsne - time_start_tsne},{time_end_umap - time_start_umap}\n")
 
 
-benchmark(200)
+benchmark(500)
 
